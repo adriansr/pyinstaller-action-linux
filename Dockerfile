@@ -1,4 +1,4 @@
-FROM adrisr/pyinstaller-linux
+FROM adrisr/pyinstaller-linux:test
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
